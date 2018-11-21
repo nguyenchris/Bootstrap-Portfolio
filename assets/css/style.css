@@ -35,8 +35,27 @@ h2 {
   font-size: .8em;
 }
 
+.portfolio-img {
+  height: 280px;
+  width: 350px;
+}
+
 @media (max-width: 576px) {
   img {
     width: 100%;
+  }
+  #nav {
+    padding: 0;
+  }
+
+  #logo {
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .navItems {
+    margin: 0;
+    display: inline-block;
   }
 }
